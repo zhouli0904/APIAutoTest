@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "test.url",
+      "type": "java.lang.String",
+      "description": "Description for test.url."
+    },
+    {
+      "name": "login.uri",
+      "type": "java.lang.String",
+      "description": "Description for login.uri."
+    },
+    {
+      "name": "getUserInfo.uri",
+      "type": "java.lang.String",
+      "description": "Description for getUserInfo.uri."
+    },
+    {
+      "name": "my.test.login-url",
+      "type": "java.lang.String",
+      "description": "Description for my.test.login-url."
+    },
+    {
+      "name": "my.test.get-all-url",
+      "type": "java.lang.String",
+      "description": "Description for my.test.get-all-url."
+    }
+  ] }

@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个没有body的post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是第一个mock的post请求"
+    }
+  },
+  {
+    "description": "这是一个有body的post请求",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我胡汉三带着参数回来了。。。。"
+    }
+  }
+]

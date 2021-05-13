@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+
+<suite name="multiThread" parallel="tests" thread-count="3">
+<!--
+    parallel=“methods” 所有用例都可在不同线程下执行
+    parallel=“classes” 同一个class标签下的测试用例使用同一个线程
+    parallel=“tests” 同一个test标签下的测试用例使用同一个线程
+-->
+    <test name="demo1">
+        <classes>
+            <class name="com.course.testng.multiThread.multiThreadOnXml"/>
+            <class name="com.course.testng.multiThread.multiThreadOnXml2"/>
+        </classes>
+    </test>
+
+    <test name="demo2">
+        <classes>
+            <class name="com.course.testng.multiThread.multiThreadOnXml3"/>
+        </classes>
+    </test>
+
+</suite>
